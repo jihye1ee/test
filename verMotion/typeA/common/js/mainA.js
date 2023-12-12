@@ -50,7 +50,7 @@ $(function () {
       gsap.to(".space", {
         className: "space active",
         onComplete: function () {
-          $(".space .space-info .left-wrap").addClass("active");
+          $(".space .space-info .left-wrap").addClass("active sticky");
           $(".space .space-info .right-wrap").addClass("active");
         }
       });
